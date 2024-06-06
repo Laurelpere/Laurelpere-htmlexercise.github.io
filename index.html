@@ -20,7 +20,7 @@
 		text-align: left;
 	}
 	section{
-		border: 2px solid gray;
+		border: 0;
 		padding: 5px;
 		flex: float;
 		justify-content: center;
@@ -40,8 +40,21 @@
 		text-align: center;
 	}
 	.image{
+		width: 100%;
+		height: auto;
+	@media @media only screen and (max-device-width: 480px){
+	.image{
 		max-width: 100%;
 		height: auto;
+	}
+		section{
+		border: 2px solid gray;
+		padding: 5px;
+		flex: float;
+		justify-content: center;
+		text-align: center;
+		margin-bottom: 20px;
+	}
 	}
 	footer{
 		text-align: center;
